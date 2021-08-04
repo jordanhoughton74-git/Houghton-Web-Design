@@ -113,7 +113,7 @@ export default function WebDesign (){
            <img className={styles.removeSmall} src="/images/React.png" alt="React Logo" width="100%" style={{ maxWidth: 180 }} />
         </Col>
         <Col md={12} lg={6}>
-            <img className={styles.removeSmall} src="/images/Wordpress.png" alt="WordPress Logo" width="100%" style={{ maxWidth: 150 }} />
+            <img className={styles.removeSmall} src="/images/WordPress.png" alt="WordPress Logo" width="100%" style={{ maxWidth: 150 }} />
         </Col>
         </Row>
         </Container>
