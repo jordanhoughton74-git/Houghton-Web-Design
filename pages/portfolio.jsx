@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -11,6 +12,21 @@ import styles from '../styles/Portfolio.module.css'
 export default function Portfolio(){
     return (
  <>
+ <Head>
+  <title>Portfolio | Houghton Web Design, Kent, UK</title>
+      <meta name="title" content="Freelance Web Designer |  Houghton Website Development Kent, UK"/>
+      <meta name="description"
+      content="I'm Jordan a freelance web designer delivering Bespoke Websites and Maintenance, based in Kent, United Kingdom. Houghton Web Design." />
+      <meta name="keywords" content="Web designer, mobile responsive websites, mobile responsive, freelance web designer, web developer, web maintenance, web consultant, seo, freelance web developer, web designer uk, web designer kent, web designer local"/>
+      <meta name="robots" content="index, follow"/>
+      <meta httpEquiv="Content-Type" content="text/html; charSet=utf-8"/>
+      <meta name="language" content="en"/>
+      <meta property="og:title" content="Freelance Web Designer | Web developer Kent, UK"/>
+      <meta property="og:site_name" content="Houghton Web Design"/>
+      <meta property="og:url" content="www.houghtonwebdesign.co.uk"/>
+      <meta property="og:description" content="I'm Jordan a freelance web designer based in Kent, UK. I deliver bespoke web design and developer services"/>
+      <meta property="og:type" content="website"></meta>
+  </Head>
 <div className="gradient-section">
     <div className="wrapper">
         <div className={styles.title}>

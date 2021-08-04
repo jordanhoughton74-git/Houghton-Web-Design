@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
@@ -10,6 +11,20 @@ import WaveTop from '../components/wave-top';
 export default function Seo (){
     return(
         <>
+    <Head>
+        <title>Need a flawless UI and UX? | Houghton Web Design</title>
+        <meta name="title" content="Freelance Web Designer |  Need a flawless UI and UX?"/>
+        <meta name="description" content="I'm Jordan a freelance web designer, delivering SEO and UI led interfaces, which are always mobile responsive. Houghton Web Design." />
+        <meta name="keywords" content="Web designer, mobile responsive websites, mobile responsive, freelance web designer, web developer, web maintenance, web consultant, seo, freelance web developer, web designer uk, web designer kent, web designer local"/>
+        <meta name="robots" content="index, follow"/>
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="language" content="en"/> 
+        <meta property="og:title" content="Freelance Web Designer | Web developer Kent, UK"/>
+        <meta property="og:site_name" content="Houghton Web Design"/>
+        <meta property="og:url" content="www.houghtonwebdesign.co.uk"/>
+        <meta property="og:description" content="I'm Jordan a freelance web designer based in Kent, UK. I deliver bespoke web design and developer services"/>
+        <meta property="og:type" content="website"></meta>
+      </Head>
     <div>
         <div className="wrapper">
         <Container fluid className={styles.paddingTop}>

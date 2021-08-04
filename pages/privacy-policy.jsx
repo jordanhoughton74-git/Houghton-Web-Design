@@ -135,7 +135,7 @@ return (
       <p>The right to data portability – You have the right to request that we transfer the data that we have collected
         to another organization, or directly to you, under certain conditions.</p>
       <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights,
-        please contact us at jordanhoughton74@gmail.com.</p>
+        please contact us at info@houghtonwebdesign.co.uk.</p>
 
       <h2>Children's Information</h2>
 
@@ -148,7 +148,7 @@ return (
 
       <h2>How to complain</h2>
 
-      <p>If you have a complaint regarding this policy please email: jordanhoughton74@gmail.com</p>
+      <p>If you have a complaint regarding this policy please email: info@houghtonwebdesign.co.uk</p>
       </div>
     </div>
   </div>
