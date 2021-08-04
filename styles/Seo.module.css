@@ -1,0 +1,25 @@
+.paddingTop {
+    padding: 100px 100px 50px;
+}
+.padding{
+    padding: 50px 100px;
+}
+.paddingBottom {
+    padding: 50px 100px 100px;
+}
+.seoImg {
+    border-radius: 5px;
+}
+
+@media (max-width: 680px) {
+    .paddingTop {
+        padding: 50px 25px 50px;
+    }
+    .padding{
+        padding: 50px 25px;
+    }
+    .paddingBottom {
+        padding: 50px 25px 100px;
+    }  
+
+}

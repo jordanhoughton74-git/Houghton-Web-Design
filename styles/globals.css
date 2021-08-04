@@ -1,9 +1,38 @@
-html,
-body {
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body,
+html {
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 300 !important;
+  font-family: 'Roboto', sans-serif !important;
+  background-color: #ffffff;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300 !important;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0 0 10px 0;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin: 0 0 10px 0;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 a {
@@ -11,6 +40,482 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: inherit;
+}
+
+.grey-text {
+  color: #555555;
+}
+
+.logo-img {
+  height: 32px;
+  width: 200px
+}
+
+.justify {
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+.center {
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.gradient-section {
+  background-color: #d9e7ff;
+  background: linear-gradient(135deg, #e3ffe7 0%, #d9e7ff 100%);
+  display: flex;
+  position: relative;
+}
+
+.gradient-section-horizontal {
+  background-color: #d9e7ff;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  display: flex;
+  position: relative;
+}
+
+.navbar {
+  z-index: 999;
+}
+
+.home-top {
+  height: 100vh;
+  text-align: right;
+  color: white;
+  position: relative;
+  background-image: url("/images/Freelance-Web-Design.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 40vh;
+  padding-right: 10%
+}
+
+.btn {
+  line-height: 35px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white
+}
+
+.btn-color {
+  color: #FFF;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.btn-color-two {
+  color: rgb(36, 36, 36);
+  transition: all 0.3s;
+  position: relative;
+}
+
+.btn-one span {
+  transition: all 0.3s;
+}
+
+.btn-one::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+
+  transform: scale(0.1, 1);
+}
+
+.btn-color::before {
+  border-top-color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-color-two::before {
+  border-top-color: rgba(34, 34, 34, 0.5);
+  border-bottom-color: rgba(34, 34, 34, 0.5);
+}
+
+.btn-color-two:hover {
+  color: #000000;
+}
+
+.btn-one:hover span {
+  letter-spacing: 2px;
+}
+
+.btn-one:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.btn-one::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+}
+
+.btn-color::after {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-color-two::after {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-one:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
+}
+
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all .2s ease;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: rgba(133, 158, 222, 0.5);
+  width: 56px;
+  height: 56px;
+  transition: all .3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all .3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #4d67fa;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.96);
+}
+
+.carousel-indicators,
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+.custom-shape-divider-bottom-1613987531 {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1613987531 svg {
+  position: relative;
+  display: block;
+  width: calc(134% + 1.3px);
+  height: 68px;
+}
+
+.custom-shape-divider-bottom-1613987531 .shape-fill {
+  fill: #FFF;
+}
+
+.custom-shape-divider-top-1613991006 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1613991006 svg {
+  position: relative;
+  display: block;
+  width: calc(134% + 1.3px);
+  height: 46px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1613991006 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.rowReverse {
+  flex-direction: row-reverse;
+  align-content: center;
+}
+
+.left-align {
+  text-align: justify;
+}
+
+.seoTop,
+.pic-left,
+.left {
+  text-align: left;
+}
+
+.middleRow {
+  padding: 50px 0;
+}
+
+.clip-icon {
+  padding-left: 8px;
+}
+
+.code-icon {
+  padding-right: 3px;
+}
+
+.speech-icon {
+  padding-left: 2px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
+.stacking-slide {
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.color1 {
+  background-color: #e3ffe7;
+}
+
+.color2 {
+  background-color: #e0f9ed;
+}
+
+.color3 {
+  background-color: #dceef8;
+}
+
+.color4 {
+  background-color: #d9e7ff;
+}
+
+.footer-custom {
+  text-align: center;
+  background-color: #555555;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  z-index: 9999;
+}
+
+.footer-text {
+  color: #9a9a9a;
+}
+
+.footerlink {
+  padding: 0 10px 0 35px;
+}
+
+.terms-pad {
+  padding: 75px;
+  text-align: left;
+
+}
+
+.contact-div {
+  background-color: #ffffff;
+  background: linear-gradient(0deg, #f2f2f2 0%, #fff 100%);
+  padding: 50px 40px;
+}
+
+.input-fax {
+  display: none;
+}
+
+.green-text {
+  color: rgb(34, 199, 34);
+}
+
+@media (max-width:767px) {
+
+  .content-desktop {
+    display: none;
+  }
+
+  .footerlink {
+    padding: 0;
+  }
+
+  .nav-link {
+    text-align: right;
+  }
+
+  .terms-pad {
+    padding: 75px 20px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .nav-link {
+    position: relative;
+    ;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+  }
+
+  .nav-link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #636363;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-link:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .mobile-break {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .margin-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 1444px) {
+  .home-top {
+    height: 75vh;
+    padding-top: 30vh;
+  }
+}
+
+@media (max-width: 991px) {
+  .pic-left {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .margin-bottom {
+    margin-bottom: auto;
+  }
+
+  .margin-top {
+    margin-top: auto;
+  }
+
+  .bespoke-title {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .home-top {
+    background-attachment: scroll;
+  }
+
+}
+
+@media (max-width:650px) {
+  .macImg {
+    background-image: url("/images/Freelance-Web-Design-Mobile.jpg");
+  }
+
+  .home-top {
+    text-align: center;
+    padding: 35vh 10px 0;
+  }
+
+  .contact-div {
+    padding: 30px 10px 50px;
+  }
+}
+
+@media (max-width:500px) {
+  .contact-button {
+    width: 100% !important;
+  }
+}
+
+@media (max-width:950px) {
+  .card-group {
+    display: block;
+  }
 }
