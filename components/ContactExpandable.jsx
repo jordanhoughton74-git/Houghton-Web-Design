@@ -70,6 +70,7 @@ const ContactExpandable = () => {
           placeholder="Enter Your Name" 
           value={note.name}
           name="name"
+          className="form-input"
           id="name"
           onChange={e => {handleChange(e); expand()}}
           onClick={expand}
@@ -85,6 +86,7 @@ const ContactExpandable = () => {
           placeholder="Enter Your Email" 
           value={note.email}
           name="email"
+          className="form-input"
           id="email"
           onChange={e => {handleChange(e); expand()}}
           onClick={expand}
@@ -100,6 +102,7 @@ const ContactExpandable = () => {
               placeholder="Subject" 
               value={note.subject}
               name="subject"
+              className="form-input"
               id="subject"
               onChange={handleChange}
               />
@@ -111,6 +114,7 @@ const ContactExpandable = () => {
              <Form.Control 
              as="textarea" 
              rows={3}
+             className="form-input"
              placeholder="Your Message" 
              value={note.message}
              name="message"
