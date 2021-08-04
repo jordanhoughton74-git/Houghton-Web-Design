@@ -102,7 +102,7 @@ export default function WebDesign (){
         <Col className={styles.cardWrap} md={12} lg={6}>
             <h5>WordPress (CMS)</h5>
             <p className="grey-text justify">WordPress is a hugely popular open-source web designing CMS or Content Management Software.  This allows my clients to easily take over control of their content creation. WordPress started as a blogging service, however, with the addition of plug-ins, which can affect everything from security to functionality, it has become a hugely popular tool in every sector of business. WordPress estimates that a staggering 39% of the web has been built using their platform.</p>
-            <img className={styles.removeImg} src="/images/Wordpress.png" alt="WordPress Logo" width="100%" style={{ maxWidth: 150 }} />
+            <img className={styles.removeImg} src="/images/WordPress.png" alt="WordPress Logo" width="100%" style={{ maxWidth: 150 }} />
         </Col>
         </Row>
         </Container>

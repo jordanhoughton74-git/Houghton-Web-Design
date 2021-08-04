@@ -7,10 +7,12 @@ function HomeCarousel(){
     <Carousel>
       <Carousel.Item align="center">
       <picture>
-      <source className="d-block mx-auto" media="(max-width: 523px)" srcSet="/images/ReactSmall.png"/>
+      <source className="d-block mx-auto" width="150px" height="150px" media="(max-width: 523px)" srcSet="/images/ReactSmall.png"/>
       <source media="(min-width: 523px)" srcSet="/images/ReactLogoHoughtonWebDesign.png"/>
         <img
           className="d-block mx-auto"
+          width="250px"
+          height="250px"
           max-width="100%"
           max-height="100%"
           src="/images/ReactLogoHoughtonWebDesign.png"
@@ -24,11 +26,13 @@ function HomeCarousel(){
 
       <Carousel.Item>
       <picture>
-      <source className="d-block mx-auto" media="(max-width: 523px)" srcSet="/images/WordPressSmall.png"/>
+      <source className="d-block mx-auto" width="150px" height="150px" media="(max-width: 523px)" srcSet="/images/WordPressSmall.png"/>
       <source media="(min-width: 523px)" srcSet="/images/WordPress.png"/>
         <img
           className="d-block mx-auto"
           max-width="100%"
+          width="250px"
+          height="250px"
           max-height="100%"
           src="/images/WordPress.png"
           alt="Freelance Web design uses Wordpress Logo"
@@ -40,10 +44,12 @@ function HomeCarousel(){
 
       <Carousel.Item>
       <picture>
-      <source className="d-block mx-auto" media="(max-width: 800px)" srcSet="/images/NextjsSmall.png"/>
+      <source className="d-block mx-auto" width="250px" height="150px" media="(max-width: 800px)" srcSet="/images/NextjsSmall.png"/>
       <source media="(min-width: 800px)" srcSet="/images/NextjsHoughtonWebDesign.png"/>
         <img
           className="d-block mx-auto"
+          width="417px"
+          height="250px"
           max-width="100%"
           max-height="100%"
           src="/images/NextjsHoughtonWebDesign.png"
