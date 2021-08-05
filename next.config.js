@@ -16,7 +16,7 @@ module.exports =
                   styleSrc: ["'self'", "'unsafe-inline'", "https://stackpath.bootstrapcdn.com", "https://fonts.googleapis.com"],
                   imgSrc: ["'self'", "data:"],
                   fontSrc: ["'self'", "https://fonts.gstatic.com"],
-                  scriptSrc: ["'self'", "'sha256-X+zrZv/IbzjZUnhsbWlsecLbwjndTpG0ZynXOif7V+k='", "http://instant.page/5.1.0"]
+                  scriptSrc: ["'self'", "'sha256-X+zrZv/IbzjZUnhsbWlsecLbwjndTpG0ZynXOif7V+k='"]
                 },
               },
               frameGuard: "deny",
