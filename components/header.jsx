@@ -19,7 +19,7 @@ export default function Header(){
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
                 </Nav>
-                <Nav>
+                <Nav className="right-align">
                 <Link href="/" passHref eventKey="1"><Nav.Link>Home</Nav.Link></Link>
                 <Link href="/seo" passHref eventKey="2"><Nav.Link>SEO & UI</Nav.Link></Link>
                 <Link href="/bespoke-service" passHref eventKey="3"><Nav.Link>Bespoke Service</Nav.Link></Link>

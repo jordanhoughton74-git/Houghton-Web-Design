@@ -251,7 +251,7 @@ a:hover {
 .carousel-indicators,
 .carousel-control-next,
 .carousel-control-prev {
-  filter: invert(100%);
+  filter: invert(100%) !important;
 }
 
 .custom-shape-divider-bottom-1613987531 {
@@ -408,10 +408,11 @@ a:hover {
 
   .footerlink {
     padding: 0;
+    text-align: right !important;
   }
 
-  .nav-link {
-    text-align: right;
+  .nav-link, .right-align  {
+    text-align: right !important;
   }
 
   .terms-pad {
