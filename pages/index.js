@@ -42,7 +42,7 @@ export default function Home() {
                 </a></Link>
         </Col>
         <Col md={8} sm={12} className="svg-image my auto">
-        <img className="mobile-svg" alt="mobile phone" src="/images/Mobile-Phone.svg" />
+        <img className="mobile-svg" alt="mobile phone" src="/images/mobile-phone.svg" />
 
         </Col>
         </Row>
