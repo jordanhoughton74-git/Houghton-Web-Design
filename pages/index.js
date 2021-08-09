@@ -13,7 +13,6 @@ import CardGroup from 'react-bootstrap/CardGroup'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComments, faChartLine, faPoundSign, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 
-
 export default function Home() {
   return (
     <>
@@ -32,14 +31,22 @@ export default function Home() {
       <meta property="og:type" content="website"></meta>
     </Head>
     <div className="home-top" alt="Houghton Web Design Hero">
-      <div className="wrapper">
-        <div className="home-title">
-        <h1>Houghton Web Design</h1>
-          <h3 className={styles.homeTitle}>Your web journey starts today</h3>   
-            <Link href="/bespoke-service"><a className="btn btn-one btn-color">
-              <span>Find out more</span>
-            </a></Link>
-        </div>
+      <div className="wrapper my-auto">
+        <Container fluid>
+          <Row className="my-auto">
+            <Col md={4} sm={12} className="home-title">
+            <h1>Houghton Web Design</h1>
+              <h3 className={styles.homeTitle}>Your web journey starts today</h3>   
+                <Link href="/bespoke-service"><a className="btn btn-one btn-color-two">
+                  <span>Find out more</span>
+                </a></Link>
+        </Col>
+        <Col md={8} sm={12} className="svg-image my auto">
+        <img className="mobile-svg" alt="mobile phone" src="/images/Mobile-Phone.svg" />
+
+        </Col>
+        </Row>
+        </Container>
       </div>
       <WaveBottom />
     </div>

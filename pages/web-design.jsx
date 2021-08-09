@@ -202,7 +202,7 @@ export default function WebDesign (){
         </div>
     <WaveBottom />
 </div>
-<div className="contact-div">
+<div className="contact-div" id="contact">
       <div className="wrapper">
       <Container fluid>
         <Row className="rowReverse">

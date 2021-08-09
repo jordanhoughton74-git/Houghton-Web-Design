@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Header(){
     return(
-        <Navbar className="leftAlign" collapseOnSelect expand="md" bg="light" variant="light">
+        <Navbar className="leftAlign" collapseOnSelect expand="md" variant="light">
             <Container> 
             <Link href="/" passHref><Navbar.Brand>
                 <img

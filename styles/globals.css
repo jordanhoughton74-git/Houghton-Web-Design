@@ -85,17 +85,31 @@ a:hover {
 }
 
 .home-top {
-  height: 100vh;
-  text-align: right;
-  color: white;
+  text-align: left;
+  color: rgb(46, 46, 46);
   position: relative;
-  background-image: url("/images/Freelance-Web-Design.jpg");
+  background-image: url("/images/LandingPageTrial.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  padding-left: 10%;
+  overflow: hidden;
+  margin-top: -58px;
+}
+.home-title {
   padding-top: 40vh;
-  padding-right: 10%
+  padding-bottom: 40vh;
+
+}
+
+.mobile-svg {
+  height: 100%;
+  width: 100%;
+  max-width: 400px;
+  transform: rotate(10deg);
+}
+.svg-image {
+  text-align: center;
 }
 
 .btn {
@@ -399,7 +413,33 @@ a:hover {
 .form-input {
   border-radius: 25px;  
 }
+.fourzerofour {
+  min-height: 100vh;
+}
+.fourzerofourcard {
+  background-color: #ffffff;
+  padding: 50px;
+}
+.four-title {
+  font-size: 20rem;
+  color: #d9e7ff;
+  background: -webkit-linear-gradient(135deg, #c6ffcf 0%, #bdd5ff 100%);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
 
+  .home-button{
+    background: linear-gradient(135deg, #c6ffcf 0%, #bdd5ff 100%) !important;
+    
+  }
+  .home-button, .contactme-button {
+    color: #000000;
+    border: 0;
+    margin-top: 10px;
+  }
+  .contactme-button {
+    background: linear-gradient(135deg, #ff9f9f 0%, #ff0000 100%);
+  }
 @media (max-width:767px) {
 
   .content-desktop {
@@ -417,6 +457,24 @@ a:hover {
 
   .terms-pad {
     padding: 75px 20px;
+  }
+  .four-title {
+    font-size: 10rem;
+  }
+  .home-title {
+    padding-top: 10vh;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .home-top {
+    padding-left: 0;
+  }
+  .mobile-svg {
+    padding-right: 50px;
+    max-width: 350px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    transform: rotate(0deg);
   }
 
 }
@@ -464,9 +522,10 @@ a:hover {
 }
 
 @media (min-width: 1444px) {
-  .home-top {
-    height: 75vh;
+  
+  .home-title {
     padding-top: 30vh;
+    padding-bottom: 30vh;
   }
 }
 
@@ -502,9 +561,12 @@ a:hover {
   }
 
   .home-top {
-    text-align: center;
-    padding: 35vh 10px 0;
+    padding:  10px 0;
   }
+  .home-title {
+    padding-top: 15vh;
+  }
+
 
   .contact-div {
     padding: 30px 10px 50px;
@@ -514,6 +576,16 @@ a:hover {
 @media (max-width:500px) {
   .contact-button {
     width: 100% !important;
+  }
+  .four-title {
+    font-size: 7rem;
+  }
+  .home-button, .contactme-button {
+    max-width: 50%;
+  }
+  .fourzerofourcard {
+  padding: 5px;
+  min-height: 5vh;
   }
 }
 
