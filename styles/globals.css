@@ -376,7 +376,7 @@ a:hover {
 
 .footer-custom {
   text-align: center;
-  background-color: #555555;
+  background-color: #949494;
   color: white;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -440,6 +440,15 @@ a:hover {
   .contactme-button {
     background: linear-gradient(135deg, #ff9f9f 0%, #ff0000 100%);
   }
+  .asH2 {
+    font-size: calc(1.325rem + .9vw);
+  }
+  @media (min-width:1200px) {
+    .asH2 {
+      font-size: 2rem;
+    }
+  }
+
 @media (max-width:767px) {
 
   .content-desktop {

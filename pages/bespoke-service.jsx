@@ -28,7 +28,7 @@ export default function BespokeService () {
     <span className={styles.timeline}>            
         <span className={styles.dot1}>1</span>
     </span>
-        <h2 className={styles.title}>Bespoke Service</h2>
+        <h1 className={styles.title}>Bespoke Service</h1>
         <h3 className="grey-text bespoke-title">How The Bespoke Service Works</h3>
     <Container fluid className={styles.padding}>
         <Row className={styles.fullHeight}>

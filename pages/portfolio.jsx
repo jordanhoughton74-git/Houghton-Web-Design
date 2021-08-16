@@ -16,7 +16,7 @@ export default function Portfolio(){
   <title>Portfolio | Houghton Web Design, Kent, UK</title>
       <meta name="title" content="Freelance Web Designer |  Houghton Website Development Kent, UK"/>
       <meta name="description"
-      content="I'm Jordan a freelance web designer delivering Bespoke Websites and Maintenance, based in Kent, United Kingdom. Houghton Web Design." />
+      content="My Portfolio. View my work and the story behind the examples.  Houghton Web Design." />
       <meta name="keywords" content="Web designer, mobile responsive websites, mobile responsive, freelance web designer, web developer, web maintenance, web consultant, seo, freelance web developer, web designer uk, web designer kent, web designer local"/>
       <meta name="robots" content="index, follow"/>
       <meta httpEquiv="Content-Type" content="text/html; charSet=utf-8"/>

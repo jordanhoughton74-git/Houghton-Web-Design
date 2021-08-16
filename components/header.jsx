@@ -11,7 +11,7 @@ export default function Header(){
             <Link href="/" passHref><Navbar.Brand>
                 <img
                 alt="Houghton Web Design Logo"
-                src="/images/inline-logo.png"
+                src="/images/HoughtonLogo.svg"
                 className="d-inline-block align-top logo-img"
              />
       </Navbar.Brand></Link>
@@ -21,7 +21,7 @@ export default function Header(){
                 </Nav>
                 <Nav className="right-align">
                 <Link href="/" passHref eventKey="1"><Nav.Link>Home</Nav.Link></Link>
-                <Link href="/seo" passHref eventKey="2"><Nav.Link>SEO & UI</Nav.Link></Link>
+                <Link href="/seo-kent" passHref eventKey="2"><Nav.Link>SEO & UI</Nav.Link></Link>
                 <Link href="/bespoke-service" passHref eventKey="3"><Nav.Link>Bespoke Service</Nav.Link></Link>
                 <Link href="/web-design" passHref eventKey="4"><Nav.Link>Web Design</Nav.Link></Link>
                 <Link href="/portfolio" passHref eventKey="5"><Nav.Link>Portfolio</Nav.Link></Link>

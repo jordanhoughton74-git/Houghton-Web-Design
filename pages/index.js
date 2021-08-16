@@ -19,7 +19,7 @@ export default function Home() {
     <Head>
       <title>Freelance Web Designer | Houghton Web Design, Kent, UK</title>
       <meta name="title" content="Freelance Web Designer |  Houghton Website Development Sittingbourne, Kent, UK"/>
-      <meta name="description" content="I'm Jordan, a freelance web designer based in Sittingbourne, Kent, United Kingdom.  Delivering Bespoke websites and maintenance services. Houghton Web Design."/>
+      <meta name="description" content="Hi, I'm Jordan! A freelance web designer based in Sittingbourne, Kent.  Delivering Bespoke websites and maintenance services. Houghton Web Design."/>
       <meta name="keywords" content="Web designer, freelance web designer, mobile responsive websites, mobile responsive, web developer, web maintenance, web consultant, seo, freelance web developer, web designer uk, web designer kent, web designer local"/>
       <meta name="robots" content="index, follow"/>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>

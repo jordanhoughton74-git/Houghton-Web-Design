@@ -30,7 +30,7 @@ export default function Seo (){
         <Container fluid className={styles.paddingTop}>
             <Row className="rowReverse my-auto">
                 <Col md={12} lg={6} className="my-auto">
-                <h2 className="seoTop">User Interface and User Experience</h2>
+                <h1 className="seoTop asH2">User Interface and User Experience</h1>
                     <p className="grey-text left-align">For a website to be successful, it must have both a sleek User Interface (UI) 
                     and a satisfying User Experience (UX). The UI and UX build foundations for <strong>return traffic and potential 
                     sales.</strong> A clogged website might distract or confuse potential clients. My websites are designed with this

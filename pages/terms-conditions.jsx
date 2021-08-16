@@ -8,7 +8,7 @@ return (
   <Head>
   <title>Houghton Web Design |  Terms and Conditions</title>
       <meta name="title" content="Freelance Web Designer |  Terms and Conditions"/>
-      <meta name="description" content="Freelance web designer based in Kent delivering Bespoke Websites and Maintenance. Houghton Web Design." />
+      <meta name="description" content="Freelance web designer based in Sittingbourne, Kent delivering Bespoke Websites and Maintenance. Houghton Web Design." />
       <meta name="keywords" content="Web designer, freelance web designer, mobile responsive websites, mobile responsive, web developer, web maintenance, web consultant, seo, freelance web developer, web designer uk, web designer kent, web designer local"/>
       <meta name="robots" content="index, follow"/>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -24,7 +24,7 @@ return (
     <div className="wrapper">
       <div className="left">
 
-      <h4> TERMS OF SERVICE of Houghton Web Design</h4> < h4> -- -- </h4> < h4> OVERVIEW </h4> < p> This website is operated by Houghton Web
+      <h1> TERMS OF SERVICE of Houghton Web Design</h1> < h4> -- -- </h4> < h4> OVERVIEW </h4> < p> This website is operated by Houghton Web
               Design.Throughout the site, the terms“ we”, “us” and“ our” refer to Houghton Web Design. Houghton Web Design offers
               this website, including all information, tools and services available from this site to you, the user,
               conditioned upon your acceptance of all terms, conditions, policies and notices stated here.
