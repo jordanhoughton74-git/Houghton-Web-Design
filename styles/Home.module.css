@@ -3,6 +3,7 @@
 }
 .homeTitle {
     padding-bottom: 20px;
+    font-size: 1.75rem
 }
 .leftAlign {
     text-align: left;
@@ -57,6 +58,7 @@ box-shadow: 4px 2px 17px 10px rgba(0,0,0,0.18);
     margin-right: 10px;
     margin-top: 10px;
 }
+
 
 
 @media (max-width: 1000px) {

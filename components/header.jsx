@@ -4,10 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Link from 'next/link';
 
 
+
 export default function Header(){
     return(
         <Navbar className="leftAlign" collapseOnSelect expand="md" variant="light">
-            <Container> 
+            <Container fluid className="nav-pad wrapper"> 
             <Link href="/" passHref><Navbar.Brand>
                 <img
                 alt="Houghton Web Design Logo"
@@ -25,6 +26,7 @@ export default function Header(){
                 <Link href="/bespoke-service" passHref eventKey="3"><Nav.Link>Bespoke Service</Nav.Link></Link>
                 <Link href="/web-design" passHref eventKey="4"><Nav.Link>Web Design</Nav.Link></Link>
                 <Link href="/portfolio" passHref eventKey="5"><Nav.Link>Portfolio</Nav.Link></Link>
+                <Link href="/blog" passHref eventKey="6"><Nav.Link>Blog</Nav.Link></Link>
                 </Nav>
             </Navbar.Collapse>
             </Container>

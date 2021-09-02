@@ -20,13 +20,12 @@ export default function Home() {
       <title>Freelance Web Designer | Houghton Web Design, Kent, UK</title>
       <meta name="title" content="Freelance Web Designer |  Houghton Website Development Sittingbourne, Kent, UK"/>
       <meta name="description" content="Hi, I'm Jordan! A freelance web designer based in Sittingbourne, Kent.  Delivering Bespoke websites and maintenance services. Houghton Web Design."/>
-      <meta name="keywords" content="Web designer, freelance web designer, mobile responsive websites, mobile responsive, web developer, web maintenance, web consultant, seo, freelance web developer, web designer uk, web designer kent, web designer local"/>
       <meta name="robots" content="index, follow"/>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
       <meta name="language" content="en"/>
       <meta property="og:title" content="Freelance Web Designer | Web developer Kent, UK"/>
       <meta property="og:site_name" content="Houghton Web Design"/>
-      <meta property="og:url" content="www.houghtonwebdesign.co.uk"/>
+      <meta property="og:url" content="https://houghtonwebdesign.co.uk"/>
       <meta property="og:description" content="I'm Jordan Houghton a freelance web designer based in Kent, UK. I deliver bespoke web design and developer services"/>
       <meta property="og:type" content="website"></meta>
     </Head>
@@ -36,7 +35,7 @@ export default function Home() {
           <Row className="my-auto">
             <Col md={4} sm={12} className="home-title">
             <h1>Houghton Web Design</h1>
-              <h3 className={styles.homeTitle}>Your web journey starts today</h3>   
+              <h2 className={styles.homeTitle}>Your web journey starts today</h2>   
                 <Link href="/bespoke-service"><a className="btn btn-one btn-color-two">
                   <span>Find out more</span>
                 </a></Link>
@@ -56,7 +55,7 @@ export default function Home() {
       <Container fluid>
         <Row>
           <Col md={6} sm={12} className={styles.leftAlign}>
-          <h2>Freelance Web Designer</h2>
+          <h3>Freelance Web Designer</h3>
             <p className="grey-text">Welcome to Houghton Web Design.  My name is Jordan Houghton and I am a Web Developer & Designer based in Sittingbourne, Kent with a passion for user experience. 
             Please feel free to contact me about starting our project together. You will be amazed by what we can achieve.
             The process to creating your dream website begins by filling out the form or sending me an email.</p>
