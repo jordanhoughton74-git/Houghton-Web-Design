@@ -47,6 +47,7 @@ export default function Post({ postData }){
         <Date dateString={postData.date} />
         <br />
         <div className="blog-text" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <p>By Jordan Houghton</p>
     </div>
     </>
     )

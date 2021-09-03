@@ -53,7 +53,7 @@ Depending on your platform you use it might be as simple as resizing images redu
 
 This is where the Jamstack comes in or more specifically Next.JS, they allow us to pass incredibly fast websites to the user and also make it so load between pages is in certain scenarios instant.  Go ahead and try it if you click between my pages of this site the pages load instantly.  Unlike other technologies the Jamstack keeps websites to the minimum code needed to run the site, reducing security vulnerabilities and the size of the package passed to the user on initial request. 
 
-In summary, where I do offer WordPress sites if a customer specifically requests it, I would however as long as their use case permits always suggest moving to the Jamstack.  A similar site to mine I recently visited had a performance score on desktop of 64 and a mobile score of 40 while using the WordPress platform and being hosted on one of the more expensive hosting companies.
+In summary, where I do offer WordPress sites if a customer specifically requests it, I would however always suggest moving to the Jamstack, unless the use case is not applicable.  A similar site to mine I recently visited had a performance score on desktop of 64 and a mobile score of 40 while using the WordPress platform and being hosted on one of the more expensive hosting companies.
 
 Google lighthouse gives my site a time to interactive of 0.6 seconds and we can see no load time between pages, so why would I choose anything else? 
 

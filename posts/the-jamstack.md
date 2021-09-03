@@ -11,7 +11,7 @@ imgAlt: 'Image for Next.js'
 
 When I started to learn web developing I looked into hundreds of different platforms and languages to try and find what I thought was the best use case scenario for the majority of my clients.
 
-My initial thought was of course WordPress, this is a long tested solution for getting websites online with a reasonably client friendly Content Management System.  However, for me it was always very slow and the system felt old. I also grew worried about security having to install x plugin to do this and y plugin to stop this happening, then a plugin to cache and a plugin for stripping unused css or JavaScript.  I also experienced a string of styled content losses due to bugs in full production plugins.
+My initial thought was of course WordPress, this is a long tested solution for getting websites online with a reasonably client friendly Content Management System (the admin panel that you can edit text on the website).  However, for me it was always very slow and the system felt old. I also grew worried about security having to install x plugin to do this and y plugin to stop this happening, then a plugin to cache and a plugin for stripping unused css or JavaScript.  I also experienced a string of styled content losses due to bugs in full production plugins.
 
 This is where the **Jamstack** stepped in.
 
@@ -38,7 +38,7 @@ Out of all the options above I settled on <ins>**[Next.js](https://vercel.com/)*
 <li>Community - Next was launched in 2016 and the community has grown and is incredibly helpful with many public repos to explore</li>
 </ul>
 
-As you can see for me Next.js was best fit and it just works how you expect it to work, experiencing almost no bugs and on the occasion you do find one the community always seems to already have a work around.  Next has allowed me to produce websites of speeds I didn't think was possible.
+As you can see for me Next.js was best fit and it just works how you expect it to work, experiencing almost no bugs and on the occasion you do find one, the community always seems to already have a work around.  Next has allowed me to produce websites of speeds I didn't think was possible.
 
 ## **CMS**
 
@@ -48,7 +48,7 @@ Jamstack works by decoupling the backend from the frontend which could mean we l
 
 ## **Pricing**
 
-How much would a Jamstack website cost? This is something that really depends on your use case and the size of the website however, seeing some of the huge figures that agencies charge for WordPress sites, I strongly believe by finding the right developer, someone with a passion for the industry and the technical know how like myself you could still pick up a hand coded Jamstack website for much cheaper than someone offering a WordPress site.
+How much would a Jamstack website cost? This is something that really depends on your use case and the size of the website however, seeing some of the huge figures that peolpe charge for WordPress sites, I strongly believe by finding the right developer, someone with a passion for the industry and the technical know how like myself, you could still pick up a hand coded Jamstack website for much cheaper than someone offering a WordPress site.
 
 I spoke previously about how website speed is a major factor to user experience and again I am left asking myself why I would use anything else? Why wouldn't we want to take advantage of everything the Jamstack offers?
 
@@ -61,4 +61,4 @@ I spoke previously about how website speed is a major factor to user experience 
 <li>Less bugs</li>
 </ul>
 
-If you have any questions about my experiences or advice on how to switch to Jamstack let me know.
+If you have any questions about my experiences or want advice on how to switch to Jamstack let me know.
