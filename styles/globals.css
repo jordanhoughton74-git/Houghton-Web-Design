@@ -543,11 +543,15 @@ a:hover {
     padding-left: 0;
   }
   .mobile-svg {
-    padding-right: 50px;
     max-width: 350px;
+   
+    transform: rotate(0deg);
+  }
+  .svg-image {
     padding-top: 20px;
     padding-bottom: 50px;
-    transform: rotate(0deg);
+    padding-right: 50px;
+    padding: 10px 50px 50px
   }
 
 }
@@ -664,6 +668,9 @@ a:hover {
   .fourzerofourcard {
   padding: 5px;
   min-height: 5vh;
+  }
+  .nav-pad {
+    padding: 0 5px
   }
 }
 
