@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import ContactExpandable from '../components/ContactExpandable';
 import HomeCarousel from '../components/HomeCarousel';
 import WaveBottom from '../components/wave-bottom';
@@ -40,8 +41,8 @@ export default function Home() {
                   <span>Find out more</span>
                 </a></Link>
         </Col>
-        <Col md={8} sm={12} className="svg-image my auto">
-        <img className="mobile-svg" alt="mobile phone" src="/images/mobile-phone.svg" />
+        <Col md={8} sm={12} className="svg-image my-auto">
+        <Image className="mobile-svg my-auto" alt="mobile phone" width={420} height={651} src="/images/mobile-phone.svg" />
 
         </Col>
         </Row>
