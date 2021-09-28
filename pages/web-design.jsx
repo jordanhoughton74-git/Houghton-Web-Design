@@ -10,6 +10,7 @@ import WaveTop from '../components/wave-top';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faCheck, faTags, faTasks, faCommentDots, faScroll, faCode, faClipboardCheck, faWindowMaximize, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import 'react-vertical-timeline-component/style.min.css';
 import styles from '../styles/WebDesign.module.css'
 
@@ -17,9 +18,9 @@ export default function WebDesign (){
     return (
 <>
 <Head>
-  <title>Freelance Web Design | Houghton Web Design, Kent, UK</title>
-      <meta name="title" content="Web Designer | Houghton Website Design Sittingbourne, Kent, UK"/>
-      <meta name="description" content="I'm Jordan a freelance web designer, delivering Bespoke Websites and Maintenance.  View what I can offer you for you website venture. Houghton Web Design." />
+  <title>Affordable Web Designer | Freelance Web Design</title>
+      <meta name="title" content="Affordable Web Designer | Freelance Web Design" />
+      <meta name="description" content="I'm Jordan a freelance web designer, delivering affordable web design.  Take a look at my bespoke web designs and get in contact to see just how affordable my web design is." />
       <meta name="robots" content="index, follow"/>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
       <meta name="language" content="en"/>  
@@ -61,10 +62,10 @@ export default function WebDesign (){
 
         <Col xl={3} lg={6} md={6} sm={12} xs={12} className={styles.cardPad}>
         <Card border="light" className={styles.cardHeight}>
-            <Card.Title><span className={styles.dot3}><FontAwesomeIcon icon={faTags} color="blue" size="lg" /></span><h4>Pricing</h4></Card.Title>
+            <Card.Title><span className={styles.dot3}><FontAwesomeIcon icon={faTags} color="blue" size="lg" /></span><h4>Affordable Web Design</h4></Card.Title>
             <Card.Body>
             <Card.Text className="grey-text">
-            <strong>Cut out fees </strong>every penny you spend on your Website is spent on developing the best possible solution.
+            <strong>Cut out fees </strong>every penny you spend on your Website is spent on developing the best possible solution.  Being a freelancer means affordable web design for you.
             </Card.Text>
             </Card.Body>
         </Card>
@@ -126,7 +127,7 @@ export default function WebDesign (){
     <div className="gradient-section-horizontal">
         <div className={styles.timelineTitle}>
         <h2>What's Next?</h2>
-        <h5 className="grey-text">I use a simple 5 step plan to make sure your project is completed to the highest standard and to your satisfaction, in the shortest possible time. </h5>
+        <h5 className="grey-text">I use a simple 5 step plan to make sure your affordable web design is completed to the highest standard and to your satisfaction, in the shortest possible time.  </h5>
         </div>
     <WaveTop />
     </div>
@@ -207,11 +208,12 @@ export default function WebDesign (){
         <Row className="rowReverse">
           <Col md={6} sm={12} className="left my-auto">
             <h5>How Can I Help?</h5>
-            <p className="grey-text">Fill out the form for a free quote or just a chat about your new project and I'll get back as soon as possible.</p>
+            <p className="grey-text">I'm a freelance web designer and it may just surprise you how affordable web design can really be.  Fill out the form for a free quote or just a chat about your new project and I'll get back as soon as possible.</p>
             <hr/>
             <h5>Contact Information</h5>
-            <span className="grey-text"><FontAwesomeIcon className={styles.contactIcon} icon={faEnvelope} size="lg" /> info@houghtonwebdesign.co.uk</span><br/>
+            <a href="mailto:info@houghtonwebdesign.co.uk"><span className="grey-text"><FontAwesomeIcon className={styles.contactIcon} icon={faEnvelope} size="lg" /> info@houghtonwebdesign.co.uk</span><br/></a>
             <span className="grey-text bot-pad"><FontAwesomeIcon className={styles.contactIcon} icon={faPhone} size="lg" /> 07999443163</span>
+            <a href="https://www.facebook.com/HoughtonWebDesign"><p className="grey-text bot-pad"><FontAwesomeIcon className={styles.contactIcon} icon={faFacebook} size="lg" /> @HoughtonWebDesign</p></a>
             </Col>  
           <Col md={6} sm={12}>
           <div className={styles.contactCard}>

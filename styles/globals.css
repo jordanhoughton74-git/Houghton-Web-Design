@@ -319,6 +319,31 @@ a:hover {
 .card-title {
   margin: 0;
 }
+.code {
+  background-color: #202020;
+  color: #ffffff;
+  font-size: 1rem;
+  padding-left: 20px;
+  border-radius: 20px
+}
+.element {
+  color: #569CD6
+}
+.vs-class{
+  color: #9CDCFE
+}
+.comment {
+  color: #4B8B3A
+}
+.string {
+  color: #C38248
+}
+.number-vs {
+  color: #B5CEA8
+}
+.vs-class-gold {
+  color: #D9E577
+}
 
 .rowReverse {
   flex-direction: row-reverse;
@@ -672,6 +697,9 @@ a:hover {
   .nav-pad {
     padding: 0 5px
   }
+  .pad-top {
+    padding: 5px
+}
 }
 
 @media (max-width:950px) {

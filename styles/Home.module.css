@@ -81,6 +81,9 @@ box-shadow: 4px 2px 17px 10px rgba(0,0,0,0.18);
     .cardSection{
         padding: 25px 25px 50px;
     }
+    .padding {
+        padding: 50px 5px
+    }
     .contactCard {
     margin: 20px 0;
     }

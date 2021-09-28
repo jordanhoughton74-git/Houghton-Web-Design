@@ -13,8 +13,8 @@ export default function Portfolio(){
     return (
  <>
  <Head>
-  <title>Portfolio | Houghton Web Design, Kent, UK</title>
-      <meta name="title" content="Freelance Web Designer |  Houghton Website Development Kent, UK"/>
+  <title>Portfolio - Freelance Web Designer | Houghton Web Design</title>
+      <meta name="title" content="Portfolio - Freelance Web Designer | Houghton Website Development"/>
       <meta name="description"
       content="My Portfolio. View my work and the story behind the examples.  Houghton Web Design." />
       <meta name="robots" content="index, follow"/>

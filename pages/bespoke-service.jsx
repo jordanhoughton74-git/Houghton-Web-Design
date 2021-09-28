@@ -9,9 +9,9 @@ export default function BespokeService () {
     return(
 <>
 <Head>
-        <title>Bespoke Service | Houghton Web Design, Kent, UK</title>
-        <meta name="title" content="Beskpoke Service |  Houghton Website Development Sittingbourne, Kent, UK"/>
-        <meta name="description" content="I'm Jordan, a freelance web designer based in Sittingbourne, Kent, United Kingdom.  Delivering Bespoke websites and maintenance services. Houghton Web Design."/>
+        <title>Beskpoke Web Designs, Freelance Web Developer | Houghton Web Design Kent</title>
+        <meta name="title" content="Beskpoke Web Designs, Freelance Web Developer | Houghton Web Design Kent"/>
+        <meta name="description" content="I'm Jordan, a freelance web designer based in Kent, United Kingdom.  Delivering Bespoke web designs. Houghton Web Design."/>
         <meta name="robots" content="index, follow"/>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="language" content="en"/>
@@ -27,7 +27,7 @@ export default function BespokeService () {
     <span className={styles.timeline}>            
         <span className={styles.dot1}>1</span>
     </span>
-        <h1 className={styles.title}>Bespoke Service</h1>
+        <h1 className={styles.title}>Bespoke Web Design</h1>
         <h3 className="grey-text bespoke-title">How The Bespoke Service Works</h3>
     <Container fluid className={styles.padding}>
         <Row className={styles.fullHeight}>
