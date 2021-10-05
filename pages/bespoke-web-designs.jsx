@@ -9,15 +9,15 @@ export default function BespokeService () {
     return(
 <>
 <Head>
-        <title>Beskpoke Web Designs, Freelance Web Developer | Houghton Web Design Kent</title>
-        <meta name="title" content="Beskpoke Web Designs, Freelance Web Developer | Houghton Web Design Kent"/>
+        <title>Beskpoke Web Designs | Freelance Web Developer Kent</title>
+        <meta name="title" content="Beskpoke Web Designs | Freelance Web Developer Kent"/>
         <meta name="description" content="I'm Jordan, a freelance web designer based in Kent, United Kingdom.  Delivering Bespoke web designs. Houghton Web Design."/>
         <meta name="robots" content="index, follow"/>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="language" content="en"/>
         <meta property="og:title" content="Freelance Web Designer | Web developer Kent, UK"/>
         <meta property="og:site_name" content="Houghton Web Design"/>
-        <meta property="og:url" content="https://houghtonwebdesign.co.uk/bespoke-service/"/>
+        <meta property="og:url" content="https://houghtonwebdesign.co.uk/bespoke-web-designs/"/>
         <meta property="og:description" content="I'm Jordan Houghton a freelance web designer based in Kent, UK. I deliver bespoke web design and developer services"/>
         <meta property="og:type" content="website"></meta>
   

@@ -38,7 +38,7 @@ export default function Home() {
             <Col md={4} sm={12} className="home-title">
             <h1>Houghton Web Design</h1>
               <h2 className={styles.homeTitle}>Your web journey starts today</h2>   
-                <Link href="/bespoke-service"><a className="btn btn-one btn-color-two">
+                <Link href="/bespoke-web-designs"><a className="btn btn-one btn-color-two">
                   <span>Find out more</span>
                 </a></Link>
         </Col>

@@ -475,6 +475,13 @@ a:hover {
   min-height: 322px;
   position: relative
 }
+.blog-title {
+  text-align: left;
+  color: rgb(46, 46, 46)
+}
+.blog-sub {
+  font-size: 1.2rem
+}
 .blog-pad-bot {
   padding-bottom: 20px
 }
@@ -672,9 +679,6 @@ a:hover {
   .blog-card{
     margin:10px 0;
   }
-  
-
-
   .contact-div {
     padding: 30px 10px 50px;
   }

@@ -31,8 +31,11 @@ export default function Blog({ allPostsData }){
   
 </Head>
     <section className="gradient-section">
+      
      <div className="wrapper-small pad-top">   
       <Container fluid>
+      <h1 className="blog-title">Blog Posts</h1>
+      <p className="blog-title blog-sub">The main motivations, influences and inspirations from a freelance web designer</p>
         <Row>
         {allPostsData.map(({ id, date, title, img }) => (
 
