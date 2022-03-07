@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/globals.css'
 import Head from 'next/head';
 import Header from "../components/header"
 import Footer from "../components/footer"
@@ -5,9 +7,6 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import '../styles/globals.css'
 
 
 function MyApp({ Component, pageProps }) {
