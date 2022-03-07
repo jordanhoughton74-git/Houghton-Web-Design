@@ -119,7 +119,7 @@ a:hover {
 }
 
 .btn {
-  line-height: 35px;
+  line-height: 35px !important;
   height: 50px;
   text-align: center;
   width: 250px;
@@ -435,14 +435,14 @@ a:hover {
 }
 
 .input-fax {
-  display: none;
+  display: none !important;
 }
 
 .green-text {
   color: rgb(34, 199, 34);
 }
 .form-input {
-  border-radius: 25px;  
+  border-radius: 25px !important;  
 }
 .fourzerofour {
   min-height: 100vh;
