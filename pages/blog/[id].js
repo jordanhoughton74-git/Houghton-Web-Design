@@ -34,7 +34,7 @@ export default function Post({ postData }){
         <meta property="og:site_name" content="Houghton Web Design"/>
         <meta property="og:url" content={'https://houghtonwebdesign.co.uk/blog/' + postData.id}/>
         <meta property="og:description" content={postData.description}/>
-        <meta property="og:image" content={'https://houghtonwebdesign.co.uk' + postData.img}/>
+        <meta property="og:image" content={'https://houghtonwebdesign.co.uk' + postData.ogImg}/>
         <meta property="og:type" content="website" />
         <meta property="og:image:alt" content={postData.imgAlt} />
     </Head>

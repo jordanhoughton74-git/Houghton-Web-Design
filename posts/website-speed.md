@@ -2,6 +2,7 @@
 date: '2021-09-01'
 title: 'Is Website Speed Affecting Your Sales?'
 img: '/images/blog/Website-Speed.svg'
+ogImg: '/images/blog/Website-Speed.png'
 description: 'We look into the affect that Website Speed has on your page visitors user experience and delve into whether a slow site could lose sales'
 imgAlt: 'Image for Website Speed'
 
