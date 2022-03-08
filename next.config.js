@@ -1,9 +1,12 @@
 const { createSecureHeaders } = require("next-secure-headers");
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+})
 
 
 
-module.exports =
-    { async headers() {
+module.exports = withBundleAnalyzer({
+      async headers() {
         return [
           {
             source: "/(.*)",
@@ -36,4 +39,4 @@ module.exports =
         ];
       },
     
-    }
+    })
