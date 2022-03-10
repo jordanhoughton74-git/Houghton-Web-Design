@@ -127,12 +127,12 @@ export default function Header() {
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
               <Popover.Button className="text-left" onClick={() => (open = false)}>
-                <Link href="/portfolio"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <Link href="/portfolio"><a className="flex text-base font-medium text-gray-900 hover:text-gray-700 w-full">
                   Portfolio
                 </a></Link>
                 </Popover.Button>
                 <Popover.Button className="text-left" onClick={() => (open = false)}>
-                <Link href="/blog"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <Link href="/blog"><a className="text-base flex font-medium text-gray-900 hover:text-gray-700">
                   Blog
                 </a></Link>
                 </Popover.Button>

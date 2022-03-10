@@ -100,7 +100,7 @@ export default function Home() {
             <p className='text-gray-700 mb-2'><PhoneIcon className="inline h-6 w-6 text-indigo-700 mr-2" aria-hidden="true"/>07999443163</p>
             <a href="https://www.facebook.com/HoughtonWebDesign"><p className='text-gray-700 hover:underline mb-2'><span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
             <span className="text-indigo-700">
-              <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6 mr-2" viewBox="0 0 24 24">
+              <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6 mr-2 inline" viewBox="0 0 24 24">
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </span>

@@ -37,7 +37,7 @@ export default function Post({ postData }){
         <meta property="og:type" content="website" />
         <meta property="og:image:alt" content={postData.imgAlt} />
     </Head>
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-5xl mx-auto px-2">
         <h1 className='text-3xl'>{postData.title}</h1>
         <br />
         <div className="blog-img">

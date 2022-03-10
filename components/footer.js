@@ -29,8 +29,8 @@ export default function Footer() {
                     <p className='mb-2'>07999443163</p>
                     <p className='mb-2'>info@houghtonwebdesign.co.uk</p>
                 </div>
+                <p className='lg:text-left text-white max-w-7xl mx-auto'>Houghton Web Design © {new Date().getFullYear()}</p>
             </div>
-            <p className='lg:text-left text-white lg:pl-7 max-w-7xl mx-auto'>Houghton Web Design © {new Date().getFullYear()}</p>
         </div>
     )
 }
