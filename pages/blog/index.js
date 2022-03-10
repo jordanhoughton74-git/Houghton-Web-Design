@@ -1,7 +1,5 @@
 import { getSortedPostsData } from '../../lib/posts'
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
-import BlogCard from '../../components/blogCard';
+import Link from 'next/link'
 import Head from 'next/head';
 
 export async function getStaticProps() {
@@ -30,29 +28,24 @@ export default function Blog({ allPostsData }){
         <meta property="og:type" content="website"></meta>
   
 </Head>
-    <section className="gradient-section">
-      
-     <div className="wrapper-small pad-top">   
-      <Container fluid>
-      <h1 className="blog-title">Blog Posts</h1>
-      <p className="blog-title blog-sub">The main motivations, influences and inspirations from a freelance web designer</p>
-        <Row>
+    <div className="bg-gradient-to-r from-green-100 to-blue-100">
+     <div className="py-10 px-3 max-w-4xl mx-auto">   
+      <h1 className="text-3xl">Blog Posts</h1>
+      <p className="text-xl text-gray-700 pb-5">The main motivations, influences and inspirations from a freelance web designer</p>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-4 items-stretch'>
         {allPostsData.map(({ id, date, title, img }) => (
-
-            <BlogCard
-                key={id}
-                title={title}
-                date={date}
-                img={img}
-                slug={id}
-            
-            />
+          <Link href={"blog/" + id} key={id}><a>
+            <div className='transition ease-in-out duration-300 rounded-lg shadow-lg bg-white p-5 h-full relative hover:-translate-y-6'>
+            <p className='text-2xl'>{title}</p>
+            <img src={img} width={534} height={360} alt={id} />
+            <p className='text-gray-700 text-left pb-2'>{date}</p>
+            <p className='absolute bottom-2 left-5'>Read More</p>
+          </div>
+          </a></Link>
             ))}
-
-        </Row> 
-      </Container>
+        </div> 
       </div>
-    </section>
+    </div>
     </>
     )
 }

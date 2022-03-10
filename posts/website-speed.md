@@ -1,5 +1,5 @@
 ---
-date: '2021-09-01'
+date: '1st September 2021'
 title: 'Is Website Speed Affecting Your Sales?'
 img: '/images/blog/Website-Speed.svg'
 ogImg: '/images/blog/Website-Speed.png'

@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "next/head";
 
 function PrivacyPolicy() {
@@ -19,11 +18,9 @@ return (
       <meta property="og:type" content="website"></meta>
   </Head>
 
-  <div className="terms-pad">
-    <div className="wrapper">
-      <div className="left">
+  <div className="max-w-7xl mx-auto text-left">
 
-      <h1> TERMS OF SERVICE of Houghton Web Design</h1> < h4> -- -- </h4> < h4> OVERVIEW </h4> < p> This website is operated by Houghton Web
+      <h1 className="text-3xl pb-3"> TERMS OF SERVICE of Houghton Web Design</h1> <h2 className="pb-2 text-2xl"> -- -- </h2> <h2 className="pb-2 text-2xl"> OVERVIEW </h2> < p> This website is operated by Houghton Web
               Design.Throughout the site, the terms“ we”, “us” and“ our” refer to Houghton Web Design. Houghton Web Design offers
               this website, including all information, tools and services available from this site to you, the user,
               conditioned upon your acceptance of all terms, conditions, policies and notices stated here.
@@ -44,7 +41,7 @@ return (
               reserve the right to update, change or replace any part of these Terms of Service by posting updates and /
               or changes to our website.It is your responsibility to check this page periodically
               for changes.Your continued use of or access to the website following the posting of any changes
-              constitutes acceptance of those changes. </p> < h4> SECTION 1 - ONLINE STORE TERMS </h4> < p> By
+              constitutes acceptance of those changes. </p> <h2 className="pb-2 text-2xl"> SECTION 1 - ONLINE STORE TERMS </h2> < p> By
                   agreeing to these Terms of Service, you represent that you are at least the age of majority in your
                   state or province of residence, or that you are the age of majority in your state or province of
                   residence and you have given us your consent to allow any of your minor dependents to use this site.
@@ -56,7 +53,7 @@ return (
                   You must not transmit any worms or viruses or any code of a destructive nature.
 
                   A breach or violation of any of the Terms will result in an immediate termination of your Services.
-                  </p> < h4> SECTION 2 - GENERAL CONDITIONS </h4> < p> We reserve the right to refuse service to
+                  </p> <h2 className="pb-2 text-2xl"> SECTION 2 - GENERAL CONDITIONS </h2> < p> We reserve the right to refuse service to
                       anyone
                       for any reason at any time.
 
@@ -70,8 +67,8 @@ return (
                       service is provided, without express written permission by us.
 
                       The headings used in this agreement are included
-                      for convenience only and will not limit or otherwise affect these Terms. </p> < h4> SECTION 3 -
-                        ACCURACY, COMPLETENESS AND TIMELINESS OF INFORMATION </h4> < p> We are not responsible
+                      for convenience only and will not limit or otherwise affect these Terms. </p> <h2 className="pb-2 text-2xl"> SECTION 3 -
+                        ACCURACY, COMPLETENESS AND TIMELINESS OF INFORMATION </h2> < p> We are not responsible
                           if information made available on this site is not accurate, complete or current.The material
                           on this site is provided
                           for general information only and should not be relied upon or used as the sole basis
@@ -82,8 +79,8 @@ return (
                           not current and is provided
                           for your reference only.We reserve the right to modify the contents of this site at any time,
                           but we have no obligation to update any information on our site.You agree that it is your
-                          responsibility to monitor changes to our site. </p> < h4> SECTION 4 - MODIFICATIONS TO THE
-                            SERVICE AND PRICES </h4> < p> Prices
+                          responsibility to monitor changes to our site. </p> <h2 className="pb-2 text-2xl"> SECTION 4 - MODIFICATIONS TO THE
+                            SERVICE AND PRICES </h2> < p> Prices
                               for our products are subject to change without notice.
 
                               We reserve the right at any time to modify or discontinue the Service(or any part or
@@ -91,8 +88,8 @@ return (
 
                               We shall not be liable to you or to any third - party
                               for any modification, price change, suspension or discontinuance of the Service. </p> 
-                              <h4> SECTION 5 - PRODUCTS OR SERVICES(
-                                if applicable) </h4> < p> Certain products or services may be available exclusively
+                              <h2 className="pb-2 text-2xl"> SECTION 5 - PRODUCTS OR SERVICES(
+                                if applicable) </h2> < p> Certain products or services may be available exclusively
                                   online through the website.These products or services may have limited quantities and
                                   are subject to
                                   return or exchange only according to our Return Policy.
@@ -113,8 +110,8 @@ return (
 
                                   We do not warrant that the quality of any products, services, information, or other
                                   material purchased or obtained by you will meet your expectations, or that any errors
-                                  in the Service will be corrected. </p> < h4> SECTION 6 - ACCURACY OF BILLING AND
-                                    ACCOUNT INFORMATION </h4> < p> We reserve the right to refuse any order you place
+                                  in the Service will be corrected. </p> <h2 className="pb-2 text-2xl"> SECTION 6 - ACCURACY OF BILLING AND
+                                    ACCOUNT INFORMATION </h2> < p> We reserve the right to refuse any order you place
                                       with us.We may, in our sole discretion, limit or cancel quantities purchased per
                                       person, per household or per order.These restrictions may include orders placed by
                                       or under the same customer account, the same credit card, and / or orders that use
@@ -131,8 +128,8 @@ return (
                                       expiration dates, so that we can complete your transactions and contact you as
                                       needed.
 
-                                      For more detail, please review our Returns Policy. </p> < h4> SECTION 7 -
-                                        OPTIONAL TOOLS </h4> < p> We may provide you with access to third - party tools
+                                      For more detail, please review our Returns Policy. </p> <h2 className="pb-2 text-2xl"> SECTION 7 -
+                                        OPTIONAL TOOLS </h2> < p> We may provide you with access to third - party tools
                                           over which we neither monitor nor have any control nor input.
 
                                           You acknowledge and agree that we provide access to such tools” as is” and“ as
@@ -147,8 +144,8 @@ return (
 
                                           We may also, in the future, offer new services and / or features through the
                                           website(including, the release of new tools and resources).Such new features
-                                          and / or services shall also be subject to these Terms of Service. </p> < h4>
-                                            SECTION 8 - THIRD - PARTY LINKS </h4> < p> Certain content, products and
+                                          and / or services shall also be subject to these Terms of Service. </p> <h2 className="pb-2 text-2xl">
+                                            SECTION 8 - THIRD - PARTY LINKS </h2> < p> Certain content, products and
                                               services available via our Service may include materials from third -
                                               parties.
 
@@ -169,7 +166,7 @@ return (
                                               third-party products should be directed to the third-party.</p>
 
 
-                                              < h4> SECTION 9 - USER COMMENTS, FEEDBACK AND OTHER SUBMISSIONS </h4> 
+                                              <h2 className="pb-2 text-2xl"> SECTION 9 - USER COMMENTS, FEEDBACK AND OTHER SUBMISSIONS </h2> 
                                               <p> If, at our request, you send certain specific submissions(
                                                   for example contest entries) or without a request from us you send
                                                   creative ideas, suggestions, proposals, plans, or other materials,
@@ -198,11 +195,11 @@ return (
                                                   of any comments.You are solely responsible
                                                   for any comments you make and their accuracy.We take no responsibility
                                                   and assume no liability
-                                                  for any comments posted by you or any third - party. </p> < h4>
-                                                    SECTION 10 - PERSONAL INFORMATION </h4> < p> Your submission of
+                                                  for any comments posted by you or any third - party. </p> <h2 className="pb-2 text-2xl">
+                                                    SECTION 10 - PERSONAL INFORMATION </h2> < p> Your submission of
                                                       personal information through the store is governed by our Privacy
-                                                      Policy.To view our Privacy Policy. </p> < h4> SECTION 11 -
-                                                        ERRORS, INACCURACIES AND OMISSIONS </h4> <p> Occasionally
+                                                      Policy.To view our Privacy Policy. </p> <h2 className="pb-2 text-2xl"> SECTION 11 -
+                                                        ERRORS, INACCURACIES AND OMISSIONS </h2> <p> Occasionally
                                                           there may be information on our site or in the Service that
                                                           contains typographical errors, inaccuracies or omissions that
                                                           may relate to product descriptions, pricing, promotions,
@@ -220,8 +217,8 @@ return (
                                                           required by law.No specified update or refresh date applied in
                                                           the Service or on any related website, should be taken to
                                                           indicate that all information in the Service or on any related
-                                                          website has been modified or updated. </p> < h4> SECTION 12 -
-                                                            PROHIBITED USES </h4> < p> In addition to other
+                                                          website has been modified or updated. </p> <h2 className="pb-2 text-2xl"> SECTION 12 -
+                                                            PROHIBITED USES </h2> < p> In addition to other
                                                               prohibitions as set forth in the Terms of Service, you are
                                                               prohibited from using the site or its content: (a) for any
                                                               unlawful purpose;
@@ -250,9 +247,9 @@ return (
                                                               any related website, other websites, or the Internet.We
                                                               reserve the right to terminate your use of the Service or
                                                               any related website
-                                                              for violating any of the prohibited uses. </p> < h4>
+                                                              for violating any of the prohibited uses. </p> <h2 className="pb-2 text-2xl">
                                                                 SECTION 13 - DISCLAIMER OF WARRANTIES; LIMITATION OF
-                                                                LIABILITY </h4> < p> We do not guarantee, represent or
+                                                                LIABILITY </h2> < p> We do not guarantee, represent or
                                                                   warrant that your use of our service will be
                                                                   uninterrupted, timely, secure or error - free.
 
@@ -304,8 +301,8 @@ return (
                                                                   for
                                                                   consequential or incidental damages, in such states or
                                                                   jurisdictions, our liability shall be limited to the
-                                                                  maximum extent permitted by law. </p> < h4> SECTION
-                                                                    14 - INDEMNIFICATION </h4> < p> You agree to
+                                                                  maximum extent permitted by law. </p> <h2 className="pb-2 text-2xl"> SECTION
+                                                                    14 - INDEMNIFICATION </h2> < p> You agree to
                                                                       indemnify, defend and hold harmless Houghton Web Design
                                                                       and our parent, subsidiaries, affiliates,
                                                                       partners, officers, directors, agents,
@@ -316,8 +313,8 @@ return (
                                                                       party due to or arising out of your breach of
                                                                       these Terms of Service or the documents they
                                                                       incorporate by reference, or your violation of any
-                                                                      law or the rights of a third - party. </p> < h4>
-                                                                        SECTION 15 - SEVERABILITY </h4> < p> In the
+                                                                      law or the rights of a third - party. </p> <h2 className="pb-2 text-2xl">
+                                                                        SECTION 15 - SEVERABILITY </h2> < p> In the
                                                                           event that any provision of these Terms of
                                                                           Service is determined to be unlawful, void or
                                                                           unenforceable, such provision shall
@@ -327,8 +324,8 @@ return (
                                                                           severed from these Terms of Service, such
                                                                           determination shall not affect the validity
                                                                           and enforceability of any other remaining
-                                                                          provisions. </p> < h4> SECTION 16 -
-                                                                            TERMINATION </h4> < p> The obligations and
+                                                                          provisions. </p> <h2 className="pb-2 text-2xl"> SECTION 16 -
+                                                                            TERMINATION </h2> < p> The obligations and
                                                                               liabilities of the parties incurred prior
                                                                               to the termination date shall survive the
                                                                               termination of this agreement
@@ -350,8 +347,8 @@ return (
                                                                               for all amounts due up to and including
                                                                               the date of termination; and / or
                                                                               accordingly may deny you access to our
-                                                                              Services(or any part thereof). </p> < h4>
-                                                                                SECTION 17 - ENTIRE AGREEMENT </h4> <
+                                                                              Services(or any part thereof). </p> <h2 className="pb-2 text-2xl">
+                                                                                SECTION 17 - ENTIRE AGREEMENT </h2> <
                                                                                   p> The failure of us to exercise or
                                                                                   enforce any right or provision of
                                                                                   these Terms of Service shall not
@@ -375,14 +372,14 @@ return (
                                                                                   Any ambiguities in the interpretation
                                                                                   of these Terms of Service shall not be
                                                                                   construed against the drafting party.
-                                                                                  </p> < h4> SECTION 18 - GOVERNING LAW
-                                                                                    </h4> < p> These Terms of Service
+                                                                                  </p> <h2 className="pb-2 text-2xl"> SECTION 18 - GOVERNING LAW
+                                                                                    </h2> < p> These Terms of Service
                                                                                       and any separate agreements
                                                                                       whereby we provide you Services
                                                                                       shall be governed by and construed
                                                                                       in accordance with the laws of .
-                                                                                      </p> < h4> SECTION 19 - CHANGES
-                                                                                        TO TERMS OF SERVICE </h4> < p>
+                                                                                      </p> <h2 className="pb-2 text-2xl"> SECTION 19 - CHANGES
+                                                                                        TO TERMS OF SERVICE </h2> < p>
                                                                                           You can review the most
                                                                                           current version of the Terms
                                                                                           of Service at any time at this
@@ -402,14 +399,14 @@ return (
                                                                                           posting of any changes to
                                                                                           these Terms of Service
                                                                                           constitutes acceptance of
-                                                                                          those changes. </p> < h4>
+                                                                                          those changes. </p> <h2 className="pb-2 text-2xl">
                                                                                             SECTION 20 - CONTACT
-                                                                                            INFORMATION </h4> < p>
+                                                                                            INFORMATION </h2> < p>
                                                                                               Questions about the Terms
                                                                                               of Service should be sent
                                                                                               to us at jordanhoughton74
                                                                                               @gmail.com.
-                                                                                              </p> </div> </div></div> </>
+                                                                                              </p> </div> </>
                                                                                               )
                                                                                               }
                                                                                               export default

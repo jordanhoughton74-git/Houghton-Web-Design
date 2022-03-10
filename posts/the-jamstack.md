@@ -1,5 +1,5 @@
 ---
-date: '2021-09-03'
+date: '3rd September 2021'
 title: 'The Jamstack - what is it?'
 img: '/images/blog/Nextjs.svg'
 description: 'We look into what the Jamstack is, the benefits and how it might be better than a conventional website'

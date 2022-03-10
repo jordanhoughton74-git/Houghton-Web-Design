@@ -1,7 +1,6 @@
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Image from 'next/image';
 import Head from 'next/head';
-import Date from '../../components/date';
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id)
@@ -38,16 +37,16 @@ export default function Post({ postData }){
         <meta property="og:type" content="website" />
         <meta property="og:image:alt" content={postData.imgAlt} />
     </Head>
-    <div className="wrapper-small blog-pad">
-        <h1>{postData.title}</h1>
+    <div className="max-w-5xl mx-auto">
+        <h1 className='text-3xl'>{postData.title}</h1>
         <br />
         <div className="blog-img">
         <Image src={postData.img} width={534} height={360}/>
         </div>
-        <Date dateString={postData.date} />
         <br />
-        <div className="blog-text" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-        <p>By Jordan Houghton</p>
+        <div className="blog-text text-left text-2xl" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <p className='text-left'>By Jordan Houghton</p>
+        <p className='text-left'>{postData.date}</p>
     </div>
     </>
     )
