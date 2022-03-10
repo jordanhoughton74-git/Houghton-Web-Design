@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Footer() {
     return (
         <div className="bg-gray-800 py-10 px-4 lg:px-20">
-            <div className="max-w-7xl grid grid-cols-1 lg:grid-cols-4 text-white gap-5">
+            <div className="max-w-7xl grid grid-cols-1 lg:grid-cols-4 text-white gap-5 mx-auto">
                 <div className="my-auto mx-auto">
                 <img
                 alt="Freelance Web Design HWD Logo"
@@ -30,7 +30,7 @@ export default function Footer() {
                     <p className='mb-2'>info@houghtonwebdesign.co.uk</p>
                 </div>
             </div>
-            <p className='lg:text-left text-white lg:pl-7'>Houghton Web Design © {new Date().getFullYear()}</p>
+            <p className='lg:text-left text-white lg:pl-7 max-w-7xl mx-auto'>Houghton Web Design © {new Date().getFullYear()}</p>
         </div>
     )
 }

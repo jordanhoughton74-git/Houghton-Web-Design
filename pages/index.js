@@ -88,7 +88,7 @@ export default function Home() {
       ))}
       </div>
     </div>
-      <div className="max-w-7xl m-3 md:m-10 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="max-w-7xl m-3 md:m-10 grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto">
           <ContactForm />
           <div className='text-left my-auto'>
             <p className='text-2xl mb-2'>How can I help?</p>
