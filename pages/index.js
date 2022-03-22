@@ -45,7 +45,7 @@ export default function Home() {
     </Head>
     <div className="home-top relative dark:text-white dark:bg-gray-900" alt="Houghton Web Design Background">
       <div className='grid grid-cols-1 lg:grid-cols-2 max-w-5xl mx-auto hero'>
-        <div className='my-auto lg:text-left'>
+        <div className='my-auto lg:text-left px-5'>
           <h1 className='text-4xl pb-2'>Houghton Web Design</h1>
           <h2 className='text-3xl'>Your web journey starts today</h2>
         </div>
@@ -103,7 +103,7 @@ export default function Home() {
             <p className="text-gray-700 dark:text-gray-200 mb-4">Fill out the form for a free quote or just a chat about your new project and I'll get back as soon as possible. As a freelance web designer you'll be suprised just how affordable web design can be.</p>
             <hr />
             <p className='text-2xl my-2'>Contact information</p>
-            <a href="mailto:info@houghtonwebdesign.co.uk"><p className='items-center text-gray-700 dark:text-gray-200 hover:underline mb-2'><InboxIcon className="dark:text-white inline h-6 w-6 text-indigo-700 mr-2" aria-hidden="true"/> info@houghtonwebdesign.co.uk</p></a>
+            <a href="mailto:info@houghtonwebdesign.co.uk"><p className='items-center text-gray-700 dark:text-gray-200 hover:underline mb-2 break-all'><InboxIcon className="dark:text-white inline h-6 w-6 text-indigo-700 mr-2" aria-hidden="true"/> info@houghtonwebdesign.co.uk</p></a>
             <p className='text-gray-700 dark:text-gray-200 mb-2'><PhoneIcon className="inline h-6 w-6 text-indigo-700 dark:text-white mr-2" aria-hidden="true"/>07999443163</p>
             <a href="https://www.facebook.com/HoughtonWebDesign"><p className='text-gray-700 dark:text-gray-200 hover:underline mb-2'><span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start ">
             <span className="text-indigo-700 dark:text-white">

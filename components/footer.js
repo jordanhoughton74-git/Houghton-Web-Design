@@ -27,7 +27,7 @@ export default function Footer() {
                 <div className="text-center lg:text-left mx-auto">
                     <p className="uppercase mb-2">Contact</p>
                     <p className='mb-2'>07999443163</p>
-                    <p className='mb-2'>info@houghtonwebdesign.co.uk</p>
+                    <p className='mb-2 break-all'>info@houghtonwebdesign.co.uk</p>
                 </div>
                 <p className='lg:text-left text-white max-w-7xl mx-auto'>Houghton Web Design © {new Date().getFullYear()}</p>
             </div>
