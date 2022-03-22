@@ -16,6 +16,10 @@ return (
       <meta property="og:url" content="https://houghtonwebdesign.co.uk"/>
       <meta property="og:description" content="I'm Jordan a freelance web designer based in Kent, UK. I deliver bespoke web design and developer services"/>
       <meta property="og:type" content="website"></meta>
+      <meta property="og:image" content="https://houghtonwebdesign.co.uk/images/houghtonwebdesign.png" />
+      <meta property="og:image:width" content="800" />
+      <meta property="og:image:height" content="183" />
+      <meta property="og:image:alt" content="Houghton Web Design Logo" />
   </Head>
 
   <div className="max-w-7xl mx-auto text-left">

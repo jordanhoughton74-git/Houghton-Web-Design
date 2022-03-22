@@ -1,4 +1,4 @@
-const { createSecureHeaders } = require("next-secure-headers");
+const { createSecureHeaders } = require("next-secure-headers")
 
 module.exports = {
   reactStrictMode: true,

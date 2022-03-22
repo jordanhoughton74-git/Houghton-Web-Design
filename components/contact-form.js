@@ -45,14 +45,14 @@ export default function ContactForm() {
     return (
         <>
         <div className='text-left'>
-                <div className="mb-2 bg-indigo-700 rounded-t-lg py-7">
+                <div className="mb-2 bg-indigo-700 dark:bg-violet-900 rounded-t-lg py-7">
                     <p className="text-white text-center font-bold uppercase">Get in contact!</p>
                 </div>
 
         <form onSubmit={sendEmail}>
                 <div>
           <div>
-            <label className="uppercase text-sm text-gray-600 font-bold">Full Name
+            <label className="uppercase text-sm text-gray-600 dark:text-gray-200 font-bold">Full Name
             <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"
               required
@@ -65,7 +65,7 @@ export default function ContactForm() {
           </div>
   
           <div className="mt-4">
-            <label className="uppercase text-sm text-gray-600 font-bold">E-Mail Address
+            <label className="uppercase text-sm text-gray-600 dark:text-gray-200 font-bold">E-Mail Address
             <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               value={form.email} 
               required
@@ -77,7 +77,7 @@ export default function ContactForm() {
 
           </div>
           <div className="mt-4">
-            <label className="uppercase text-sm text-gray-600 font-bold">Subject
+            <label className="uppercase text-sm text-gray-600 dark:text-gray-200 font-bold">Subject
             <input className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               value={form.subject} 
               required
@@ -90,7 +90,7 @@ export default function ContactForm() {
 
           </div>
           <div className="mt-4">
-            <label className="uppercase text-sm text-gray-600 font-bold">Message
+            <label className="uppercase text-sm text-gray-600 dark:text-gray-200 font-bold">Message
             <textarea
               className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               value={form.message} 
@@ -102,7 +102,7 @@ export default function ContactForm() {
           </div>
           <div className="mt-4">
             <button
-              className="uppercase text-sm font-bold tracking-wide bg-indigo-700 hover:bg-indigo-800 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
+              className="uppercase text-sm font-bold tracking-wide bg-indigo-700 dark:bg-violet-900 hover:bg-indigo-800 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
               type="submit"
               >
               Send Message

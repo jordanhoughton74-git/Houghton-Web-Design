@@ -30,7 +30,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Popover className="relative bg-white">
+    <Popover className="relative bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center py-6  md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -45,23 +45,23 @@ export default function Header() {
              /></a></Link>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <Popover.Button className="bg-white dark:bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 dark:text-white hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
-          <Link href="/"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
+          <Link href="/"><a className="text-base font-medium text-gray-500 dark:text-white hover:text-gray-900 dark:hover:text-gray-300">
               Home
             </a></Link>  
-            <Link href="/seo-kent"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <Link href="/seo-kent"><a className="text-base font-medium dark:text-white text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
               SEO & UI
             </a></Link>
-            <Link href="/web-design"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <Link href="/web-design"><a className="text-base font-medium dark:text-white text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
               Web Design
-            </a></Link><Link href="/portfolio"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
+            </a></Link><Link href="/portfolio"><a className="text-base font-medium dark:text-white text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
               Portfolio
-            </a></Link><Link href="/blog"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
+            </a></Link><Link href="/blog"><a className="text-base font-medium dark:text-white text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
               Blog
             </a></Link>
 
@@ -81,7 +81,7 @@ export default function Header() {
         leaveTo="opacity-0 scale-95"
       >
         <Popover.Panel focus className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white dark:bg-gray-900 divide-y-2 divide-gray-50">
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
                 <div>
@@ -93,7 +93,7 @@ export default function Header() {
                 height="253.447"
              />                </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-white dark:bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 dark:text-white hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -106,7 +106,7 @@ export default function Header() {
                     href="/">
                       <a className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
                       <HomeIcon className="flex-shrink-0 h-6 w-6 text-indigo-700" aria-hidden="true" />
-                      <span className="ml-3 text-base font-medium text-gray-900">Home</span>
+                      <span className="ml-3 text-base font-medium text-gray-900 dark:text-white">Home</span>
                     </a></Link>
                     </Popover.Button>
 
@@ -117,7 +117,7 @@ export default function Header() {
                     href={item.href}>
                       <a className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
                       <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-700" aria-hidden="true" />
-                      <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
+                      <span className="ml-3 text-base font-medium text-gray-900 dark:text-white">{item.name}</span>
                     </a></Link>
                   </Popover.Button>
                   ))}
@@ -127,12 +127,12 @@ export default function Header() {
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
               <Popover.Button className="text-left" onClick={() => (open = false)}>
-                <Link href="/portfolio"><a className="flex text-base font-medium text-gray-900 hover:text-gray-700 w-full">
+                <Link href="/portfolio"><a className="flex text-base font-medium text-gray-900 dark:text-white hover:text-gray-700 w-full">
                   Portfolio
                 </a></Link>
                 </Popover.Button>
                 <Popover.Button className="text-left" onClick={() => (open = false)}>
-                <Link href="/blog"><a className="text-base flex font-medium text-gray-900 hover:text-gray-700">
+                <Link href="/blog"><a className="text-base flex font-medium text-gray-900 dark:text-white hover:text-gray-700">
                   Blog
                 </a></Link>
                 </Popover.Button>
