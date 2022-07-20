@@ -21,7 +21,7 @@ export default function Portfolio(){
             <meta property="og:type" content="website"></meta>
             <meta property="og:image" content="https://houghtonwebdesign.co.uk/images/houghtonwebdesign.png" />
             <meta property="og:image:width" content="800" />
-            <meta property="og:image:height" content="183" />
+            <meta property="og:image:height" content="400" />
             <meta property="og:image:alt" content="Houghton Web Design Logo" />
         </Head>
         <div className='pt-10 pb-20 bg-gradient-to-r from-green-100 to-blue-100 dark:from-violet-900 dark:to-rose-900 dark:text-white relative'>

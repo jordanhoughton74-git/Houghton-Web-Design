@@ -28,7 +28,7 @@ export default function Blog({ allPostsData }){
         <meta property="og:type" content="website"></meta>
         <meta property="og:image" content="https://houghtonwebdesign.co.uk/images/houghtonwebdesign.png" />
         <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="183" />
+        <meta property="og:image:height" content="400" />
         <meta property="og:image:alt" content="Houghton Web Design Logo" />
   
 </Head>
