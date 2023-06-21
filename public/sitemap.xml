@@ -21,6 +21,16 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://houghtonwebdesign.co.uk/contact-us</loc>
+  <lastmod>2023-06-05T11:07:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://houghtonwebdesign.co.uk/pricing</loc>
+  <lastmod>2023-06-05T11:07:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://houghtonwebdesign.co.uk/portfolio</loc>
   <lastmod>2021-09-05T13:07:13+00:00</lastmod>
   <priority>0.80</priority>
@@ -54,6 +64,11 @@
   <loc>https://houghtonwebdesign.co.uk/blog/tailwind-css</loc>
   <lastmod>2021-10-05T13:09:13+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+<loc>https://houghtonwebdesign.co.uk/blog/why-subcscription</loc>
+<lastmod>2023-06-05T11:07:56+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 
 

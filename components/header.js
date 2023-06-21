@@ -6,22 +6,32 @@ import {
   HomeIcon,
   LightBulbIcon,
   PresentationChartBarIcon,
+  UserIcon,
+  ChatIcon
 } from '@heroicons/react/outline'
 import Link from 'next/link'
 
 const solutions = [
   { 
     name: 'SEO & UI', 
-    description: "Creating your dream.", 
     href: '/seo-kent',
     icon: PresentationChartBarIcon,
   },
   {
     name: 'Web Design',
-    description: 'Mortgage advice you can trust.',
     href: '/web-design',
     icon: LightBulbIcon,
   },
+  // {
+  //   name: 'Pricing',
+  //   href: '/pricing',
+  //   icon: UserIcon,
+  // },
+  {
+    name: 'Contact Us',
+    href: '/conacct-us',
+    icon: ChatIcon
+  }
 ]
 
 function classNames(...classes) {
@@ -59,10 +69,17 @@ export default function Header() {
             </a></Link>
             <Link href="/web-design"><a className="text-base font-medium dark:text-white text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
               Web Design
-            </a></Link><Link href="/portfolio"><a className="text-base font-medium dark:text-white text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
+            </a></Link>
+            {/* <Link href="/pricing"><a className="text-base font-medium dark:text-white text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
+              Pricing
+            </a></Link> */}
+            <Link href="/portfolio"><a className="text-base font-medium dark:text-white text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
               Portfolio
             </a></Link><Link href="/blog"><a className="text-base font-medium dark:text-white text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
               Blog
+            </a></Link>
+            <Link href="/contact-us"><a className="text-base font-medium dark:text-white text-gray-500 hover:text-gray-900 dark:hover:text-gray-300">
+              Contact
             </a></Link>
 
          

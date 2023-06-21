@@ -1,14 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 
 body,
 html {
   text-align: center;
   box-sizing: border-box;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   margin: 0;
 }
@@ -21,6 +20,82 @@ html {
 .hero, .home-top {
   min-height: 100vh;
 
+}
+.bt-hero {
+  line-height: 35px !important;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
+
+.bt-hero:hover {
+  color: black
+}
+@media (prefers-color-scheme: dark) {
+  .bt-hero:hover {
+  color: white
+}
+}
+.bt-hero-color-two {
+  transition: all 0.3s;
+  position: relative;
+}
+
+.bt-hero-one span {
+  transition: all 0.3s;
+}
+
+.bt-hero-one::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+
+  transform: scale(0.1, 1);
+}
+.bt-hero-color-two::before {
+  border-top-color: rgba(34, 34, 34, 0.5);
+  border-bottom-color: rgba(34, 34, 34, 0.5);
+}
+
+
+.bt-hero-one:hover span {
+  letter-spacing: 2px;
+}
+
+.bt-hero-one:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.bt-hero-one::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+}
+
+.bt-hero-color-two::after {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.bt-hero-one:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
 }
 .wave-bottom, .wave-top {
   position: absolute;

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import WaveBottom from '../components/wave-bottom'
 import WaveTop from '../components/wave-top'
 import ContactForm from '../components/contact-form'
+import { Button } from '../components/button'
 import { CheckIcon, ChatAlt2Icon, CurrencyPoundIcon, PresentationChartBarIcon, InboxIcon, PhoneIcon } from '@heroicons/react/outline'
 
 
@@ -11,22 +12,22 @@ export default function WebDesign() {
     const webcard = [
         {title: "Communication",
         color: "bg-blue-100 dark:bg-violet-900",
-        information: "My client is my top prioty. As such all communication goes through me, cutting out anyone else and any chance of miscommunication.",
+        information: "With a focus on your satisfaction, I handle all communication personally, ensuring clarity and eliminating any chance of miscommunication.",
         icon: ChatAlt2Icon
         },
         {title: "Full Control",
         color: "bg-teal-100 dark:bg-fuchsia-900",
-        information: "Want something changed or revised? Before any website goes live, you will have to sign off on all elements. This will ensure that your site is entirely as you wished.",
+        information: "Your satisfaction matters! Prior to launching any website, you will have the opportunity to review and approve all elements. This guarantees that your site reflects your vision entirely.",
         icon: CheckIcon
         },
         {title: "Affordable Web Design",
         color: "bg-green-100 dark:bg-fuchsia-900",
-        information: "Cut out fees every penny you spend on your Website is spent on developing the best possible solution. Being a freelancer means affordable web design for you.",
+        information: "Say goodbye to unnecessary fees! As a freelancer, I prioritise maximising the value of every penny you invest in your website.",
         icon: CurrencyPoundIcon
         },
-        {title: "Progess Tracking",
+        {title: "Progress Tracking",
         color: "bg-green-100 dark:bg-rose-900",
-        information: "I will keep you updated on progression of the website from start to finish, so you are never left second guessing.",
+        information: "I'll keep you informed throughout the entire process of your website's development, from start to finish. You'll never be left wondering about the progress.",
         icon: PresentationChartBarIcon
         }
       ]
@@ -53,7 +54,7 @@ export default function WebDesign() {
         <div className='bg-gradient-to-r from-green-100 to-blue-100 dark:from-violet-900 dark:to-rose-900  dark:text-white px-3 pt-5 md:pt-20 pb-20 relative'>
             <h1 className='text-3xl mb-2'>Freelance Web Design and Development.</h1>
             <h2 className='text-2xl mb-4'>Why Choose Me?</h2>
-            <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-3'>
+            <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-3 pb-4'>
             {webcard.map((item) => (
                 <div key={item.title} className='bg-white dark:bg-slate-800 p-4 rounded-lg shadow-lg'>
                 <div className={"mx-auto flex items-center justify-center h-20 w-20 rounded-full text-white " + item.color}>
@@ -65,12 +66,15 @@ export default function WebDesign() {
 
                 </div>
             ))}
-
             </div>
+            <Button 
+                text="Get in contact"
+                link="contact-us"
+            />
             <WaveBottom />
         </div>
         <div className='dark:bg-gray-900 dark:text-white'>
-        <div className='py-5 md:py-20 px-3 mx-auto max-w-7xl'>
+        <div className='py-5 md:py-20 px-3 mx-auto max-w-7xl text-lg'>
             <h3 className='text-4xl mb-4'>What do I work with?</h3>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8'>
                 <div>
@@ -91,7 +95,7 @@ export default function WebDesign() {
             </div>
 
         </div>
-        <div className='bg-gradient-to-r from-green-100 to-blue-100 dark:from-violet-900 dark:to-rose-900 dark:text-white py-20 px-2 relative'>
+        <div className='text-lg bg-gradient-to-r from-green-100 to-blue-100 dark:from-violet-900 dark:to-rose-900 dark:text-white py-20 px-2 relative'>
             <WaveBottom />
             <WaveTop />
             <h4 className="text-4xl mb-4">What's Next?</h4>
@@ -102,8 +106,11 @@ export default function WebDesign() {
                 <li className="mb-10 ml-4">
                     <div className="absolute w-3 h-3 bg-white rounded-full -left-1.5 border border-white"></div>
                     <p className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-200">Initial Design & Function Talks</p>
-                    <Link  href="/seo-kent"><a className="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-indigo-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">SEO & UI <svg className="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg></a></Link>
-                </li>
+                    <Button 
+                        text="SEO & UI"
+                        link="seo-kent"
+                    />
+            </li>
                 <li className="mb-10 ml-4">
                     <div className="absolute w-3 h-3 bg-white rounded-full -left-1.5 border border-white"></div>
                     <p className="text-lg font-semibold text-gray-900 dark:text-gray-200">First Draft Sent To You For Approval</p>
@@ -130,7 +137,9 @@ export default function WebDesign() {
           <ContactForm />
           <div className='text-left my-auto'>
             <p className='text-2xl mb-2'>How can I help?</p>
-            <p className="text-gray-700 mb-4 dark:text-gray-300">Fill out the form for a free quote or just a chat about your new project and I'll get back as soon as possible. As a freelance web designer you'll be suprised just how affordable web design can be.</p>
+            <p className="text-gray-700 mb-4 dark:text-gray-300">Thank you for considering my services! Whether you're
+             looking for a free quote or simply want to discuss your exciting new project, I'm here to help. As a freelance 
+             web designer, I assure you that you'll be pleasantly surprised by the affordability of my web design services. Please fill out the form, and I'll get back to you as soon as possible. Looking forward to hearing from you!</p>
             <hr />
             <p className='text-2xl my-2'>Contact information</p>
             <a href="mailto:info@houghtonwebdesign.co.uk"><p className='items-center text-gray-700 hover:underline mb-2 dark:text-gray-300'><InboxIcon className="inline h-6 w-6 text-indigo-700 mr-2 dark:text-gray-300" aria-hidden="true"/> info@houghtonwebdesign.co.uk</p></a>

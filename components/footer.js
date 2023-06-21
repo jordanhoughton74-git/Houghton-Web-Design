@@ -14,21 +14,26 @@ export default function Footer() {
              />  
              </div>
                 <nav className="text-center lg:text-left mx-auto">
-                    <p className="uppercase mb-2">Useful Links</p>
-                    <Link href="/"><a><p className="mb-2">Home</p></a></Link>
-                    <Link href="/web-design"><a><p className="mb-2">Web Design</p></a></Link>
-                    <Link href="/seo-kent"><a><p className="mb-2">SEO</p></a></Link>
+                <ul>
+                    <li className="uppercase mb-2">Useful Links</li>
+                    <li className='mb-2 hover:underline'><Link href="/"><a>Home</a></Link></li>
+                    <li className='mb-2 hover:underline'><Link href="/web-design"><a>Web Design</a></Link></li>
+                    <li className='mb-2 hover:underline'><Link href="/seo-kent"><a>SEO</a></Link></li>
+                </ul>
                 </nav>
                 <nav className="text-center lg:text-left mx-auto">
-                    <p className="uppercase mb-2">Legal</p>
-                    <Link href="/privacy-policy"><a><p className="mb-2">Privacy Policy</p></a></Link>
-                    <Link href="/terms-conditions"><a><p className="mb-2">Terms & Conditions</p></a></Link>
+                <ul>
+                    <li className="uppercase mb-2">Legal</li>
+                    <li className='mb-2 hover:underline'><Link href="/privacy-policy"><a>Privacy Policy</a></Link></li>
+                    <li className='mb-2 hover:underline'><Link href="/terms-conditions"><a>Terms & Conditions</a></Link></li>
+                </ul>
                 </nav>
-                <div className="text-center lg:text-left mx-auto">
-                    <p className="uppercase mb-2">Contact</p>
-                    <p className='mb-2'>07999443163</p>
-                    <p className='mb-2 break-all'>info@houghtonwebdesign.co.uk</p>
-                </div>
+                <ul className="text-center lg:text-left mx-auto">
+                    <li className="uppercase mb-2">Contact</li>
+                    <li className='mb-2 hover:underline'><a href="tel:07999443163">07999443163</a></li>
+                    <li className='mb-2 hover:underline'><a href="mailto:info@houghtonwebdesign.co.uk" className='break-all'>info@houghtonwebdesign.co.uk</a></li>
+                    <li className='mb-2 hover:underline'><a href="https://www.facebook.com/HoughtonWebDesign">@HoughtonWebDesign</a></li>
+                </ul>
                 <p className='lg:text-left text-white max-w-7xl mx-auto'>Houghton Web Design © {new Date().getFullYear()}</p>
             </div>
         </div>
