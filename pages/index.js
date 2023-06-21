@@ -46,7 +46,7 @@ export default function Home() {
     </Head>
     <div className="home-top relative dark:text-white dark:bg-gray-900" alt="Houghton Web Design Background">
       <div className='grid grid-cols-1 lg:grid-cols-2 max-w-5xl mx-auto hero'>
-        <div className='my-auto lg:text-left px-5 py-5 md:py-10'>
+        <div className='my-auto lg:text-left px-5 py-5 pt-10 md:py-10'>
           <h1 className='text-4xl pb-2 font-extrabold'>Houghton Web Design</h1>
           <h2 className='text-3xl font-semibold pb-3'>Start your web journey today!</h2>
           <Link href="/web-design"><a className="bt-hero bt-hero-one bt-hero-color-two text-xl px-10 py-4">
