@@ -71,7 +71,7 @@ export default function Home() {
           with us today and let's explore 
           how Houghton Web Design can bring your online vision to life!.</p>
         <h4 className='text-2xl py-2'>Welcome to my services!</h4>
-          <p className="text-gray-700 dark:text-gray-300">As a Freelance Web Designer, 
+          <p className="text-gray-700 dark:text-gray-300">As a Freelance Web Designer based in Sittingbourne, Kent, 
           I specialise in crafting personalised websites just for you. From inception to completion, I'll handle everything,
            including ongoing maintenance to ensure your website remains in its best condition. Rest assured knowing that 
            I'll provide you with an SSL certificate, guaranteeing a secure browsing experience for your visitors. Building 
