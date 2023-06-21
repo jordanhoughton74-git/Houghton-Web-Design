@@ -147,8 +147,3 @@ html {
   background-image: url("/images/FreelanceWebDesignKentDark.svg");
   }
 }
-@media (min-width: 1441px) {
-  .home-top, .hero {
-    min-height: 75vh;
-  }
-}
