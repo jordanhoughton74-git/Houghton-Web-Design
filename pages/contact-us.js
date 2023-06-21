@@ -28,9 +28,9 @@ export default function ContactUs () {
         <div className='max-w-7xl mx-auto'>
             <div className="p-3 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-4 px-2">
               <ContactForm />
-              <div className='text-left my-auto'>
+              <div className='text-left my-auto order-first md:order-last'>
                 <p className='text-4xl font-extrabold mb-2'>How can I help?</p>
-                <p className="text-gray-700 mb-4 dark:text-gray-300">Fill out the form for a free quote or just a chat about your new project.</p>
+                <p className="text-gray-700 mb-4 dark:text-gray-300">Fill out the form for a free quote or just to chat about your new project.</p>
 
                 <hr />
                 <p className='text-4xl font-extrabold my-2'>Contact information</p>

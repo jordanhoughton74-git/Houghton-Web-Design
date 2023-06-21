@@ -17,10 +17,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.hero, .home-top {
-  min-height: 100vh;
 
-}
 .bt-hero {
   line-height: 35px !important;
   height: 50px;

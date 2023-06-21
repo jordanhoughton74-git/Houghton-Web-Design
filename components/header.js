@@ -29,7 +29,7 @@ const solutions = [
   // },
   {
     name: 'Contact Us',
-    href: '/conacct-us',
+    href: '/contact-us',
     icon: ChatIcon
   }
 ]

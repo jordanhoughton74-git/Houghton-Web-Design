@@ -46,14 +46,14 @@ export default function Home() {
     </Head>
     <div className="home-top relative dark:text-white dark:bg-gray-900" alt="Houghton Web Design Background">
       <div className='grid grid-cols-1 lg:grid-cols-2 max-w-5xl mx-auto hero'>
-        <div className='my-auto lg:text-left px-5 py-10'>
+        <div className='my-auto lg:text-left px-5 py-5 md:py-10'>
           <h1 className='text-4xl pb-2 font-extrabold'>Houghton Web Design</h1>
           <h2 className='text-3xl font-semibold pb-3'>Start your web journey today!</h2>
           <Link href="/web-design"><a className="bt-hero bt-hero-one bt-hero-color-two text-xl px-10 py-4">
                   <span>Find out more</span>
           </a></Link>
         </div>
-        <div className='my-auto mx-auto'>
+        <div className='my-auto mx-auto py-16'>
           <img src="/images/mobile-phone.svg" alt="mobile phone" className='lg:rotate-12 pr-12 pb-4 lg:pr-0 lg:pb-0' width={420} height={520} />
         </div>
       </div>
@@ -85,7 +85,7 @@ export default function Home() {
           <p className="text-gray-700 dark:text-gray-300 pb-3">I work with React.JS, Next.JS and WordPress to create the best websites
             imaginable.  Using multiple styles of code allows me to customise the website entirely to your needs, whether you need lightning-fast responsiveness or an easy-to-use CMS (Content Management System), <strong>I will have you covered.</strong></p> */}
       </div>
-      <div className='my-auto'>
+      <div className='my-auto pt-5'>
         <Image src="/images/hwd-setup.jpeg" className="rounded-xl" width={400} height={344} alt="React Logo" />
         <div className='pt-3'>
         <Button 
@@ -100,7 +100,7 @@ export default function Home() {
     <div className='bg-gradient-to-r from-green-100 to-blue-100 dark:from-violet-900 dark:to-rose-900 py-24 px-2 relative'>
       <WaveBottom />
       <WaveTop />
-      <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-3 pb-4 text-lg'>
+      <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-3 pb-7 text-lg'>
       {card.map((item) => (
         <div key={item.title} className='bg-white dark:bg-slate-800 p-4 rounded-lg shadow dark:hello'>
           <div className={"mx-auto flex items-center justify-center h-20 w-20 rounded-full text-white " + item.color}>
