@@ -4,7 +4,7 @@ number: 3
 date: '21st March 2022'
 title: 'Web Designers Near Me & What Is Best?'
 img: '/images/blog/Web-designers-near-me.svg'
-description: 'We look into how to optimise CSS, what Tailwind is and how it might help your project'
+description: 'Looking for a Web Design Near Me? Local Web Design'
 imgAlt: 'Web Designers Near Me'
 
 ---

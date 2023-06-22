@@ -45,7 +45,7 @@ export default function Post({ postData }){
           <h1 className='text-3xl'>{postData.title}</h1>
           <br />
           <div className="blog-img">
-          <Image src={postData.img} width={534} height={360}/>
+          <Image src={postData.img} width={534} height={360} alt={postData.imgAlt}/>
           </div>
           <br />
           <div className="blog-text text-left text-2xl font-thin text-black dark:text-gray-100" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />

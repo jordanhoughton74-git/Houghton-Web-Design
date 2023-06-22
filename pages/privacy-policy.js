@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-function PrivacyPolicy (){
+export default function PrivacyPolicy (){
 return (
 <>
 
@@ -8,7 +8,7 @@ return (
   <title>Freelance Web Design | Privacy Policy</title>
       <meta name="title" content="Houghton Web Design |  Privacy Policy" />
       <meta name="description" content="Freelance web designer, delivering Bespoke Websites and Maintenance.  View what I can offer you for you website venture. Houghton Web Design." />
-      <meta name="robots" content="index, follow"/>
+      <meta name="robots" content="index, nofollow"/>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
       <meta name="language" content="en"/>
       <meta property="og:title" content="Freelance Web Designer | Web developer Kent, UK"/>
@@ -154,4 +154,3 @@ return (
 </>
 )
 }
-export default PrivacyPolicy;

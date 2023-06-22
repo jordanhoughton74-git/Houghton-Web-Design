@@ -29,7 +29,7 @@ export default function ContactUs () {
             <div className="p-3 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-4 px-2">
               <ContactForm />
               <div className='text-left my-auto order-first md:order-last'>
-                <p className='text-4xl font-extrabold mb-2'>How can I help?</p>
+                <h1 className='text-4xl font-extrabold mb-2'>How can I help?</h1>
                 <p className="text-gray-700 mb-4 dark:text-gray-300">Fill out the form for a free quote or just to chat about your new project.</p>
 
                 <hr />

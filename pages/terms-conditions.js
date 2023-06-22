@@ -8,7 +8,7 @@ return (
   <title>Houghton Web Design |  Terms and Conditions</title>
       <meta name="title" content="Freelance Web Designer |  Terms and Conditions"/>
       <meta name="description" content="Freelance web designer based in Sittingbourne, Kent delivering Bespoke Websites and Maintenance. Houghton Web Design." />
-      <meta name="robots" content="index, follow"/>
+      <meta name="robots" content="index, nofollow"/>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
       <meta name="language" content="en"/>
       <meta property="og:title" content="Freelance Web Designer | Web developer Kent, UK"/>
