@@ -48,7 +48,7 @@ export default function Post({ postData }){
           <Image src={postData.img} width={534} height={360}/>
           </div>
           <br />
-          <div className="blog-text text-left text-2xl font-thin text-gray-100" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <div className="blog-text text-left text-2xl font-thin text-black dark:text-gray-100" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
           <p className='text-left'>By Jordan Houghton</p>
           <p className='text-left'>{postData.date}</p>
       </div>
